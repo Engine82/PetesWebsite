@@ -1,42 +1,56 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+/*
+Error: Invalid CSS after "    text": expected "{", was "}"
+        on line 48 of style.scss
 
-body {
-  font-family: Arial, Helvetica, sans-serif; }
+43: }
+44: 
+45: .navlinks a {
+46:     color: white;
+47:     text
+48: }
+49: 
+50: .hero {
+51:     height: 80vh;
+52:     background-image: url(images/panel.png);
+53: }
 
-a {
-  text-decoration: none; }
-
-ul {
-  list-style: none; }
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto; }
-
-.navbar {
-  background-color: #313535;
-  height: 60px; }
-
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%; }
-
-.navbar ul {
-  display: flex; }
-
-.navlinks li {
-  margin-left: 30px; }
-
-.navlinks a {
-  color: white; }
-
-.hero {
-  height: 80vh;
-  background-image: url(images/panel.png); }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:48
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:468:in `update_stylesheet'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:449:in `on_file_changed'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/config.rb:28:in `call'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:117:in `block in _process_changes'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/thread.rb:26:in `rescue_and_log'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:116:in `_process_changes'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:25:in `block in loop_for'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:20:in `loop'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/processor.rb:20:in `loop_for'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/loop.rb:85:in `_process_changes'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/event/loop.rb:51:in `block in start'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/thread.rb:26:in `rescue_and_log'
+/usr/share/rubygems-integration/all/gems/listen-3.7.0/lib/listen/thread.rb:18:in `block in new'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    text\": expected \"{\", was \"}\"\A         on line 48 of style.scss\A \A 43: }\A 44: \A 45: .navlinks a {\A 46:     color: white;\A 47:     text\A 48: }\A 49: \A 50: .hero {\A 51:     height: 80vh;\A 52:     background-image: url(images/panel.png);\A 53: }"; }
