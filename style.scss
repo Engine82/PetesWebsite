@@ -38,16 +38,28 @@ ul {
     display: flex;
 }
 
+.navbar img {
+    color: white;
+}
+
 .navlinks li {
     margin-left: 30px
 }
 
 .navlinks a {
     color: white;
-    text
 }
 
-.hero {
+.navlinks a:hover {
+    color: red;
+}
+
+.banner {
     height: 80vh;
-    background-image: url(images/panel.png);
+    background: url(images/panel.jpg) no-repeat center center/cover;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.banner h1 {
+    font-size: 64px;
 }
