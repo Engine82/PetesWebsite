@@ -32,4 +32,11 @@ ul {
 .navlinks li {
   margin-left: 30px; }
 
+.navlinks a {
+  color: white; }
+
+.hero {
+  height: 80vh;
+  background-image: url(images/panel.png); }
+
 /*# sourceMappingURL=style.css.map */
