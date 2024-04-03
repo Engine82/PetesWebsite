@@ -1,3 +1,9 @@
+// Background Colors
+$background_light_gray: #e6e6e6;
+
+// Text Colors
+$text_light_gray: #f3f3f3;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,8 +11,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Space Grotesk', Helvetica, sans-serif;
 }
 
 a {
@@ -20,6 +25,7 @@ ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 40px;
 }
 
 
@@ -63,6 +69,8 @@ ul {
     height: 80vh;
     position: relative;
     background: url(images/panel.jpg) no-repeat center center/cover;
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
 }
 
 .banner::after {
@@ -73,30 +81,31 @@ ul {
     left: 0;
     width: 100%;
     height: 80vh;
-    background: rgba(0,0,0, 0.65);
+    background: rgba(0,0,0, 0.8);
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
 .banner h1 {
     z-index: 2;
     position: relative;
-    color: #c0c0c0;
+    color: $text_light_gray;
     font-size: 5rem;
-    padding-top: 100px;
+    font-weight: 900;
+    padding: 100px 75px 100px 75px;
 }
 
 .banner h4 {
     z-index: 3;
     position: relative;
-    color: #c0c0c0;
+    color: $text_light_gray;
     font-size: 3rem;
-    padding-top: 1rem;
+    padding: 1rem 75px 0px 75px;
 }
 
 
 // ABOUT
 .about {
-    background-color: gray;
+    background-color: $background_light_gray;
 
     .container {
         display: flex;
@@ -104,13 +113,13 @@ ul {
     }
     
     img {
-        margin: 30px 30px 30px 0px;
+        margin: 0px 30px 30px 0px;
     }
     
     h2 {
         font-size: 4rem;
         padding: 20px 30px 15px 10px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
     
     p {
@@ -124,7 +133,9 @@ ul {
 .courses-two-column {
     
     .title-text {
-        font-size: 3rem;
+        font-size: 4rem;
+        text-align: center;
+        padding: 0px 30px;
     }
 
     .columns {
@@ -150,7 +161,14 @@ ul {
 
 // TEAM
 .team {
-    background-color: azure;
+    background-color: #ffffed;
+
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        padding: 20px 30px 15px 50px;
+        margin-top: 10px;
+    }
 
     .bio-cards {
         display: grid;
@@ -167,3 +185,5 @@ ul {
 
 
 }
+
+// https://www.youtube.com/watch?v=BFusIRFpX6c
