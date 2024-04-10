@@ -10,6 +10,7 @@ body {
     width: auto;
     height: auto;
     font-family: "Noto Sans Display", sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -55,4 +56,14 @@ button {
 
 footer{
     height: 50px;
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
 }
