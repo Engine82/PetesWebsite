@@ -5,10 +5,13 @@
 }
 
 body {
-    background: url(images/diamondplate.jpg);
+    background: url(images/panel.jpg);
+    background-size: cover;
     display: flex;
     width: auto;
+    max-width: 100vw;
     height: auto;
+    max-height: 100vh;
     font-family: "Noto Sans Display", sans-serif;
     text-align: center;
 }
