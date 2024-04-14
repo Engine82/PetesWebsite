@@ -13,7 +13,7 @@ ul {
   list-style: none; }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 40px; }
 
@@ -27,26 +27,14 @@ ul {
   left: 0px;
   margin: 0px; }
 
+.nav-item {
+  color: white; }
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%; }
-
-.navbar ul {
-  display: flex; }
-
-.navbar img {
-  color: white; }
-
-.navlinks li {
-  margin-left: 30px; }
-
-.navlinks a {
-  color: white; }
-
-.navlinks a:hover {
-  color: red; }
 
 .banner {
   height: 80vh;
@@ -81,6 +69,10 @@ ul {
   color: #f3f3f3;
   font-size: 3rem;
   padding: 1rem 75px 0px 75px; }
+
+.banner .columns {
+  display: flex;
+  flex-direction: row; }
 
 .about {
   background-color: #e6e6e6; }
