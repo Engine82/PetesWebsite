@@ -12,11 +12,6 @@ a {
 ul {
   list-style: none; }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 40px; }
-
 .navbar {
   background-color: #313535;
   height: 60px;
@@ -29,12 +24,6 @@ ul {
 
 .nav-item {
   color: white; }
-
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%; }
 
 .banner {
   height: 80vh;
@@ -61,18 +50,24 @@ ul {
   color: #f3f3f3;
   font-size: 5rem;
   font-weight: 900;
-  padding: 100px 75px 100px 75px; }
+  padding: 100px 75px 100px 0px; }
 
 .banner h4 {
   z-index: 3;
   position: relative;
   color: #f3f3f3;
   font-size: 3rem;
-  padding: 1rem 75px 0px 75px; }
+  padding: 1rem 75px 0px 0px; }
 
 .banner .columns {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  z-index: 3; }
+  .banner .columns .text {
+    margin: 0px; }
+  .banner .columns .icon {
+    margin: auto;
+    z-index: 3; }
 
 .about {
   background-color: #e6e6e6; }

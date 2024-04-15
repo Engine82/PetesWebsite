@@ -23,11 +23,10 @@ ul {
     list-style: none;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-}
+// .container {
+//     margin: 0 auto;
+//     padding: 40px;
+// }
 
 
 // NAVBAR
@@ -47,12 +46,12 @@ ul {
     color: white;
 }
 
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
+// .navbar .container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 100%;
+// }
 
 
 // BANNER
@@ -83,7 +82,7 @@ ul {
     color: $text_light_gray;
     font-size: 5rem;
     font-weight: 900;
-    padding: 100px 75px 100px 75px;
+    padding: 100px 75px 100px 0px;
 }
 
 .banner h4 {
@@ -91,21 +90,25 @@ ul {
     position: relative;
     color: $text_light_gray;
     font-size: 3rem;
-    padding: 1rem 75px 0px 75px;
+    padding: 1rem 75px 0px 0px;
 }
+
+
 
 .banner {
 
     .columns {
         display: flex;
         flex-direction: row;
+        z-index: 3;
 
-        .left {
-
+        .text {
+            margin: 0px;
         }
 
-        .right {
-
+        .icon {
+            margin: auto;
+            z-index: 3;
         }
     }
 }
