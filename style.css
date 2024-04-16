@@ -12,6 +12,10 @@ a {
 ul {
   list-style: none; }
 
+.container {
+  margin: 0 auto;
+  padding: 60px; }
+
 .navbar {
   background-color: #313535;
   height: 60px;
@@ -50,24 +54,35 @@ ul {
   color: #f3f3f3;
   font-size: 5rem;
   font-weight: 900;
-  padding: 100px 75px 100px 0px; }
+  padding: 120px 75px 0px 0px;
+  margin-bottom: 50px; }
 
 .banner h4 {
   z-index: 3;
   position: relative;
   color: #f3f3f3;
   font-size: 3rem;
-  padding: 1rem 75px 0px 0px; }
+  padding: 0px 75px 0px 0px; }
+
+.text br {
+  margin-top: 0px; }
 
 .banner .columns {
   display: flex;
   flex-direction: row;
+  margin-top: 20px;
   z-index: 3; }
   .banner .columns .text {
     margin: 0px; }
   .banner .columns .icon {
-    margin: auto;
+    margin-top: 100px;
     z-index: 3; }
+
+#slogan-1 {
+  padding-left: 0px; }
+
+#slogan-2 {
+  padding-left: 120px; }
 
 .about {
   background-color: #e6e6e6; }
