@@ -30,7 +30,8 @@ ul {
   color: white; }
 
 .banner {
-  height: 80vh;
+  height: 90vh;
+  min-height: 750px;
   position: relative;
   background: url(images/panel.jpg) no-repeat center center/cover;
   font-family: 'Space Grotesk';
@@ -44,8 +45,9 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80vh;
-  background: rgba(0, 0, 0, 0.7);
+  height: 90vh;
+  min-height: 750px;
+  background: rgba(0, 0, 0, 0.75);
   box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; }
 
 .banner h1 {
@@ -61,7 +63,7 @@ ul {
   z-index: 3;
   position: relative;
   color: #f3f3f3;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0px 75px 0px 0px; }
 
 .text br {
@@ -75,14 +77,21 @@ ul {
   .banner .columns .text {
     margin: 0px; }
   .banner .columns .icon {
-    margin-top: 100px;
+    margin-top: 120px;
+    z-index: 3; }
+.banner .buttons {
+  display: flex;
+  margin: 70px 0px;
+  padding-right: 400px; }
+  .banner .buttons a {
+    margin: 20px;
     z-index: 3; }
 
 #slogan-1 {
   padding-left: 0px; }
 
 #slogan-2 {
-  padding-left: 120px; }
+  padding-left: 320px; }
 
 .about {
   background-color: #e6e6e6; }

@@ -56,7 +56,8 @@ ul {
 
 // BANNER
 .banner {
-    height: 80vh;
+    height: 90vh;
+    min-height: 750px;
     position: relative;
     background: url(images/panel.jpg) no-repeat center center/cover;
     font-family: 'Space Grotesk';
@@ -71,8 +72,9 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
-    background: rgba(0,0,0, 0.7);
+    height: 90vh;
+    min-height: 750px;
+    background: rgba(0,0,0, 0.75);
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
@@ -90,7 +92,7 @@ ul {
     z-index: 3;
     position: relative;
     color: $text_light_gray;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 0px 75px 0px 0px;
 }
 
@@ -111,7 +113,19 @@ ul {
         }
 
         .icon {
-            margin-top: 100px;
+            margin-top: 120px;
+            z-index: 3;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        margin:70px 0px;
+        padding-right: 400px;
+
+        a {
+        
+            margin: 20px;
             z-index: 3;
         }
     }
@@ -122,7 +136,7 @@ ul {
 }
 
 #slogan-2 {
-    padding-left: 120px;
+    padding-left: 320px;
 }
 
 
