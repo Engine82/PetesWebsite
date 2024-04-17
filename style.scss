@@ -64,6 +64,15 @@ ul {
     background-color: $background_dark_gray;
 }
 
+.button-clear {
+    color: $text_light_gray
+}
+
+.button-clear:hover {
+    color: $text_light_gray;
+    background-color: $background_dark_gray;
+}
+
 .container {
     margin: 0 auto;
     padding: 60px;
@@ -86,13 +95,6 @@ ul {
 .nav-item {
     color: white;
 }
-
-// .navbar .container {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     height: 100%;
-// }
 
 
 // BANNER
@@ -210,6 +212,13 @@ ul {
 // COURSES
 .courses-two-column {
     
+    color: $text_light_gray;
+    background: url(images/diamondplate.jpg);
+    
+    .shadow {
+        background: rgba(0,0,0, 0.65);
+    }
+
     .title-text {
         font-size: 4rem;
         text-align: center;
@@ -239,7 +248,7 @@ ul {
 
 // TEAM
 .team {
-    background-color: #ffffed;
+    background-color: $background_light_gray;
 
     h1 {
         font-size: 4rem;
@@ -262,6 +271,15 @@ ul {
     }
 
 
+}
+
+.footer {
+    background-color: $background_dark_gray;
+
+    .logo {
+        width: 66px;
+        height: 72px;
+    }
 }
 
 // https://www.youtube.com/watch?v=BFusIRFpX6c

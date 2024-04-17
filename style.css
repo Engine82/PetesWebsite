@@ -41,6 +41,13 @@ ul {
   color: #f3f3f3;
   background-color: #444444; }
 
+.button-clear {
+  color: #f3f3f3; }
+
+.button-clear:hover {
+  color: #f3f3f3;
+  background-color: #444444; }
+
 .container {
   margin: 0 auto;
   padding: 60px; }
@@ -136,23 +143,28 @@ ul {
     font-size: large;
     padding: 20px 30px 15px 10px; }
 
-.courses-two-column .title-text {
-  font-size: 4rem;
-  text-align: center;
-  padding: 0px 30px; }
-.courses-two-column .columns {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr); }
-.courses-two-column .text {
-  padding: 30px; }
-.courses-two-column h3 {
-  font-size: 2.5rem; }
-.courses-two-column p {
-  font-size: 1.5rem;
-  padding-top: 15px; }
+.courses-two-column {
+  color: #f3f3f3;
+  background: url(images/diamondplate.jpg); }
+  .courses-two-column .shadow {
+    background: rgba(0, 0, 0, 0.65); }
+  .courses-two-column .title-text {
+    font-size: 4rem;
+    text-align: center;
+    padding: 0px 30px; }
+  .courses-two-column .columns {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); }
+  .courses-two-column .text {
+    padding: 30px; }
+  .courses-two-column h3 {
+    font-size: 2.5rem; }
+  .courses-two-column p {
+    font-size: 1.5rem;
+    padding-top: 15px; }
 
 .team {
-  background-color: #ffffed; }
+  background-color: #e9e9e9; }
   .team h1 {
     font-size: 4rem;
     text-align: center;
@@ -165,5 +177,11 @@ ul {
     padding: 50px; }
     .team .bio img {
       max-width: 450px; }
+
+.footer {
+  background-color: #444444; }
+  .footer .logo {
+    width: 66px;
+    height: 72px; }
 
 /*# sourceMappingURL=style.css.map */
