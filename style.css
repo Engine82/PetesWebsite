@@ -1,3 +1,19 @@
+.montserrat-title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal; }
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal; }
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +84,6 @@ ul {
   position: relative;
   color: #f3f3f3;
   font-size: 5rem;
-  font-weight: 900;
   padding: 120px 75px 0px 0px;
   margin-bottom: 50px; }
 
@@ -76,7 +91,7 @@ ul {
   z-index: 3;
   position: relative;
   color: #f3f3f3;
-  font-size: 2rem;
+  font-size: 4.5rem;
   padding: 0px 75px 0px 0px; }
 
 .text br {
